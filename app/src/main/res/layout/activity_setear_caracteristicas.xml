@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PJ.Setear_Caracteristicas">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Lanzamiento de Dados"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvCV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 -"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 -"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 -"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCV4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 -"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 -"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvCV6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnLanzar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="50dp"
+
+        android:text="Lanzar Dados" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fuerza"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <TextView
+            android:id="@+id/tvSTR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_fuerza"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="386dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Destreza"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="429dp" />
+
+        <TextView
+            android:id="@+id/tvDES"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_dest"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="429dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Constitucion"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <TextView
+            android:id="@+id/tvCON"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_const"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="467dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carisma"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/tvCAR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_carism"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inteligencia"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="505dp" />
+
+        <TextView
+            android:id="@+id/tvINT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_intelig"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="505dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sabiduria"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+        <TextView
+            android:id="@+id/tvSAB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_sabid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:text="Resetear"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="75dp"
+        android:enabled="true"
+        android:text="Siguiente" />
+
+</LinearLayout>

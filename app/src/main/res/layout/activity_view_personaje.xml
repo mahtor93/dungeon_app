@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="25dp"
+        android:orientation="vertical"
+        tools:context=".PJ.CreatedPersonaje">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+
+        <LinearLayout
+            android:id="@+id/lyRazaSubClase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvRaza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Raza"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvSubRaza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Variante"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clase"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvVida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HP :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvVidaShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="###"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvArmor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CA :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCAShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="###"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvVel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VEL :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvVELShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="###"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyLVLEXP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLEVEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nivel"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvLVL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="###"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvEXP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Experiencia"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvEXPShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="###"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyFuerza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fuerza"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="391dp" />
+
+            <TextView
+                android:id="@+id/tvSTR"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoSTR"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoSTR"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyDestreza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Destreza"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="429dp" />
+
+            <TextView
+                android:id="@+id/tvDES"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoDES"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoDES"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyConstitucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Constitucion"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="467dp" />
+
+            <TextView
+                android:id="@+id/tvCON"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoCON"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoCON"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyCarisma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Carisma"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/tvCAR"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoCAR"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoCAR"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyInteligencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inteligencia"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="505dp" />
+
+            <TextView
+                android:id="@+id/tvINT"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoINT"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoINT"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lySabiduria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sabiduria"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="543dp" />
+
+            <TextView
+                android:id="@+id/tvSAB"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/BonoSAB"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="Bonif. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoSAB"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="##"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyBonoCompetencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bono por Competencia :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBonoxCompetencia"
+                android:layout_width="293dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyIniciativa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnIniciativa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iniciativa" />
+
+            <TextView
+                android:id="@+id/tvIniciativa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyInspiracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvInspiracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inspiracion :"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtInspiracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lybtnes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVerItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:text="Inventario" />
+
+            <Button
+                android:id="@+id/btnVerHechizos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="1"
+                android:text="Hechizos" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

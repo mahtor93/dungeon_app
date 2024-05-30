@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="50dp"
+    android:orientation="vertical"
+    tools:context=".Jugador.verItemSeleccionado">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="NombreItem"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/linea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="linea 1"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/linea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="linea 2"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/linea3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="linea 3"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/linea4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="linea 4"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+</LinearLayout>

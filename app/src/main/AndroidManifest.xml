@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.creacindepersonaje">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dungeon Witness"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CreaciónDePersonaje"
+        tools:targetApi="31">
+        <activity
+            android:name=".Battle.selectBattleHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Battle.battleHistory"
+            android:exported="false"
+            android:parentActivityName=".Battle.selectBattleHistory"/>
+        <activity
+            android:name=".Campaign.RemoveCamp"
+            android:exported="false" />
+        <activity
+            android:name=".Scenes.ViewScenes"
+            android:exported="false" />
+        <activity
+            android:name=".Scenes.MainScene"
+            android:exported="false" />
+        <activity
+            android:name=".Scenes.ListarScenes"
+            android:exported="false" />
+        <activity
+            android:name=".Scenes.EditScenes"
+            android:exported="false" />
+        <activity
+            android:name=".Scenes.CrearScenes"
+            android:exported="false" />
+        <activity
+            android:name=".Campaign.VerCampaign"
+            android:exported="false"
+            android:parentActivityName=".Campaign.ListarCampaign" />
+        <activity
+            android:name=".Campaign.EditarCampaign"
+            android:exported="false" />
+        <activity
+            android:name=".Campaign.ListarCampaign"
+            android:exported="false"
+            android:parentActivityName=".Campaign.MainCampaign" />
+        <activity
+            android:name=".Campaign.AddCampaign"
+            android:exported="false"
+            android:parentActivityName=".Campaign.MainCampaign" />
+        <activity
+            android:name=".Battle.battleEditor"
+            android:exported="false" />
+        <activity
+            android:name=".Battle.BattleAddGuild"
+            android:exported="false" />
+        <activity
+            android:name=".Battle.CreateBattle"
+            android:exported="false"
+            android:parentActivityName=".Battle.BattleMain" />
+        <activity
+            android:name=".Monstruo.DeleteMonster"
+            android:exported="false" />
+        <activity
+            android:name=".Monstruo.EditMonster"
+            android:exported="false" />
+        <activity
+            android:name=".Guild.edit_guild"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.create_armadura"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.create_Arma"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.createSpell"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Spellbook" />
+        <activity
+            android:name=".Battle.JugadaAtaque"
+            android:exported="false" />
+        <activity
+            android:name=".Campaign.MainCampaign"
+            android:exported="false"
+            android:parentActivityName=".DungeonMaster" />
+        <activity
+            android:name=".Jugador.Spellbook"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Jugador" />
+        <activity
+            android:name=".Jugador.eliminar"
+            android:exported="false" />
+        <activity
+            android:name=".PJ.Editor_Nombre"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.Editor_Items"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.Forja"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Jugador" />
+        <activity
+            android:name=".Jugador.verItemSeleccionado"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Forja" />
+        <activity
+            android:name=".PJ.SPELLS_PJ"
+            android:exported="false" />
+        <activity
+            android:name=".PJ.ITEMS_PJ"
+            android:exported="false" />
+        <activity
+            android:name=".PJ.List_Personajes"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Jugador" />
+        <activity
+            android:name=".PJ.View_Personaje"
+            android:exported="false"
+            android:parentActivityName=".PJ.List_Personajes" />
+        <activity
+            android:name=".PJ.CreatedPersonaje"
+            android:exported="false" />
+        <activity
+            android:name=".Jugador.Jugador"
+            android:exported="false"
+            android:parentActivityName=".Inicio" />
+        <activity
+            android:name=".PJ.MainActivity"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Jugador" />
+        <activity
+            android:name=".PJ.Setear_Caracteristicas"
+            android:exported="false" />
+        <activity
+            android:name=".Battle.BattleMain"
+            android:exported="false"
+            android:parentActivityName=".DungeonMaster" />
+        <activity
+            android:name=".Guild.CreateAGuild"
+            android:exported="false"
+            android:parentActivityName=".Guild.Guild" />
+        <activity
+            android:name=".Monstruo.CreateAMonster"
+            android:exported="false"
+            android:parentActivityName=".Monstruo.MainMonstruos" />
+        <activity
+            android:name=".DungeonMaster"
+            android:exported="false"
+            android:parentActivityName=".Inicio" />
+        <activity
+            android:name=".Guild.Guild"
+            android:exported="false"
+            android:parentActivityName=".Jugador.Jugador" />
+        <activity
+            android:name=".Monstruo.MainMonstruos"
+            android:exported="false"
+            android:parentActivityName=".DungeonMaster" />
+        <activity
+            android:name=".Guild.ViewGuild"
+            android:exported="false"
+            android:parentActivityName=".Guild.VistaAllGuilds" />
+        <activity
+            android:name=".Guild.VistaAllGuilds"
+            android:exported="false"
+            android:parentActivityName=".Guild.Guild" />
+        <activity
+            android:name=".Monstruo.VistaAllMonsters"
+            android:exported="false"
+            android:parentActivityName=".Monstruo.MainMonstruos" />
+        <activity
+            android:name=".Monstruo.VistaMonsterActivity"
+            android:exported="false"
+            android:parentActivityName=".Monstruo.VistaAllMonsters" />
+        <activity
+            android:name=".Inicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

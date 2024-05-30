@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="50dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PJ.MainActivity">
+
+    <Button
+        android:id="@+id/btnJugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil de Jugador" />
+
+    <Button
+        android:id="@+id/btnDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Perfil de Dungeon Master" />
+
+</LinearLayout>

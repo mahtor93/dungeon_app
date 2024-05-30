@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_battle_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_amonster.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_jugada_ataque.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_main_monstruos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_vista_all_monsters.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ced/Desktop/FINAL FINAL/EvaluacionFinalNTEC/app/src/main/res/layout/activity_vista_monster.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_add_campaign.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_battle_add_guild.xml" value="0.3351063829787234" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_battle_editor.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_battle_history.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_battle_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_crear_scenes.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_aguild.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_amonster.xml" value="0.33" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_arma.xml" value="0.310126582278481" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_armadura.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_battle.xml" value="0.33" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_create_spell.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_created_personaje.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_delete_monster.xml" value="0.16742654508611957" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_edit_guild.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_edit_monster.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_edit_scenes.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_editar_campaign.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_editor_nombre.xml" value="0.33" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_editor_stuff.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_eliminar.xml" value="0.67" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_forja.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_guild.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_inicio.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_items_pj.xml" value="0.27943840579710144" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_jugada_ataque.xml" value="0.33" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_jugador.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_list_personajes.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_listar_campaign.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_listar_scenes.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_main_campaign.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_main_monstruos.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_main_scene.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_remove_camp.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_select_battle_history.xml" value="0.3484375" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_setear_caracteristicas.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_spellbook.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_spells_pj.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_ver_campaign.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_ver_item_seleccionado.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_view_guild.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_view_personaje.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_view_scenes.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_vista_all_guilds.xml" value="0.3625" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_vista_all_monsters.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/activity_vista_monster.xml" value="0.5" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/layout/edit_guild.xml" value="0.2109375" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/menu/listado_personajes_menu.xml" value="0.2125" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/menu/menu_campaign.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/menu/menu_guild.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/menu/menu_scrolling.xml" value="0.2125" />
+        <entry key="..\:/Users/Metatron/Downloads/55_EvaluacionFinalNTEC/app/src/main/res/menu/remove_guild.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
